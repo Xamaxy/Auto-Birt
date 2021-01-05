@@ -1,0 +1,83 @@
+body {
+  font-family: 'Catamaran', sans-serif;
+}
+
+#main-nav {
+  box-shadow: 2px 10px 10px #767a7e;
+}
+
+.orange {
+  color: #f58027;
+  text-shadow: 2px 3px 3px #767a7e;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 12rem;
+  background: #f58027;
+  display: block;
+  margin: 0 auto; 
+}
+
+.bottom-line2 {
+  height: 2px;
+  width: 12rem;
+  background: #747474;
+  display: block;
+  margin: 0 auto; 
+}
+
+.carlogo {
+  margin-top: -135px;
+}
+
+#quick-contact {
+  position: relative;
+  min-height: 160px;
+  background: url('../img/quickcontact.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: 0px -300px; */
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+#quick-contact .fas,
+#quick-contact .fab {
+  color: #fff;
+  transition: all 0.5s;
+}
+#quick-contact .fas:hover,
+#quick-contact .fab:hover {
+  transform: scale(1.5);
+}
+
+.map {
+  height: 20rem;
+}
+
+.moveup {
+  transition: all 0.3s ease;
+}
+
+.moveup:hover {
+  transform: translateY(-15px);
+}
+
+.test {
+  top: -150px;
+}
+
+@media (max-width: 568px) {
+  #showcase img {
+    margin-top: 20px } }
